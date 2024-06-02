@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Volume</title>
+</head>
+<body>
+    <h1>Perhitungan Volume</h1>
+
+    <h2>Volume Balok</h2>
+    <form id="balok-form">
+        <label for="panjang">Panjang:</label>
+        <input type="number" id="panjang" required>
+        <label for="lebar">Lebar:</label>
+        <input type="number" id="lebar" required>
+        <label for="tinggi">Tinggi:</label>
+        <input type="number" id="tinggi" required>
+        <button type="submit">Hitung Volume Balok</button>
+    </form>
+    <div id="volume-balok"></div>
+
+    <h2>Volume Kubus</h2>
+    <form id="kubus-form">
+        <label for="sisi">Sisi:</label>
+        <input type="number" id="sisi" required>
+        <button type="submit">Hitung Volume Kubus</button>
+    </form>
+    <div id="volume-kubus"></div>
+
+    <h2>Volume Prisma Segitiga</h2>
+    <form id="prisma-form">
+        <label for="alas">Alas:</label>
+        <input type="number" id="alas" required>
+        <label for="tinggi-alas">Tinggi Alas:</label>
+        <input type="number" id="tinggi-alas" required>
+        <label for="tinggi-prisma">Tinggi Prisma:</label>
+        <input type="number" id="tinggi-prisma" required>
+        <button type="submit">Hitung Volume Prisma Segitiga</button>
+    </form>
+    <div id="volume-prisma-segitiga"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
